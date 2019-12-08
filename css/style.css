@@ -1,0 +1,57 @@
+body {
+	margin-top: 10px;
+}
+body main {
+	width: 960px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 480px) {
+	body main {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+div.keyboard div.number.list,
+div.keyboard div.symbol.list {
+	display: none;
+}
+div.keyboard, 
+div.keyboard * {
+	width: 80%;
+}
+div.keyboard {
+	border: 2px solid #f00;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	box-shadow: 5px 5px 18px inset #c8c8c8;
+	// background: linear-gradient(#f00, #ff0060);
+}
+div.button {
+	width: 28px;
+	height: 28px;
+	margin: 2px;
+	display: inline-block;
+	border-radius: 4px;
+	cursor: pointer;
+}
+div.button:hover {
+	box-shadow: 5px 5px 8px inset #fff;
+}
+div.button.number {
+	background: #444;
+	color: #fff;
+}
+div.button.symbol {
+	background: #888;
+	color: #fff;
+}
+div.button.letter {
+	background: #b3b3b3;
+}
+div.keyboard div.control button {
+	width: auto;
+	margin: 2px;
+}
+div.keyboard div.control button.space {
+	width: 80%;
+}
