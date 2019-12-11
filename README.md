@@ -15,7 +15,8 @@
 	- Adaptor from usb to usb mini, if you use raspberry pi zero (w)
 	- Mouse
 
-### Notice: If you use rp zero, you probably need multiper usb, to connect both mouse and flash
+### Notice: 
+If you use rp zero, you probably need multiper usb, to connect both mouse and flash
 
 ### Installation:
 	1) clone this repo in directory you wish.
