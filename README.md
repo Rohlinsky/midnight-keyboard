@@ -1,10 +1,13 @@
 # Midnight KeyBoard
 
-### Description: Just simple responsive web keyboard for raspberry pi.
+### Description: 
+	Just simple responsive web keyboard for raspberry pi.
 
-### Issue: In situation when you have just an rp with wifi, usb flash, usb/usb mini adaptor, and mouse, problem is connect to wifi, because you cannot put password. You can send it by ssh, but without connection to network you can not do it, for put password you need or ssh, it can be resolved by connection to network by Ethernet, or put it with local keyboard.
+### Issue: 
+	In situation when you have just an rp with wifi, usb flash, usb/usb mini adaptor, and mouse, problem is connect to wifi, because you cannot put password. You can send it by ssh, but without connection to network you can not do it, for put password you need or ssh, it can be resolved by connection to network by Ethernet, or put it with local keyboard.
 
-### Solution: With this keyboard you can resolve this problem.
+### Solution: 
+	With this keyboard you can resolve this problem.
 
 ### List Requirements:
 	- Raspberry Pi
@@ -27,9 +30,9 @@
 ### Recommendation: I recommend to use rp browser instead chromium, because it runs better with resolution.
 
 ### Usage: 
->	Unfortunately this is web app, and you can only type text in input tag, for this just click on input, and you can start typing, 
->	to see numbers and other symbols just click on 1234..., 
->	to back to letters click on abcd..., 
->	on bottom area you can find register, like caps lock, it just little arrow, it can get you upper and lower cases.
+	Unfortunately this is web app, and you can only type text in input tag, for this just click on input, and you can start typing, 
+	to see numbers and other symbols just click on 1234..., 
+	to back to letters click on abcd..., 
+	on bottom area you can find register, like caps lock, it just little arrow, it can get you upper and lower cases.
 
 ### p.s. Nice Typing.
