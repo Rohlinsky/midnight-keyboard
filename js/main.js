@@ -16,6 +16,7 @@ function addKeyboard () {
 					 		<button class="caps lock">↑</button>
 					 		<button class="copy">Copy</button>
 					 		<button class="alt">1234...</button>
+					 		<button class="enter">Enter ↵</button>
 					 		<br/>
 					 		<button class="space">Space</button>
 					 	</div>
@@ -60,10 +61,15 @@ function addKeyboard () {
 		input.val(storage)
 	})
 	$('div.keyboard div.control button.copy').click(function () {
-		if (input) {
-			input.select();
-			document.execCommand("copy");
-		}
+		if (!input) return
+		input.select();
+		document.execCommand("copy");
+	})
+	$('div.keyboard div.control button.enter').click(function () {
+		if (!input) return
+		storage += `
+`
+		input.val(storage) 
 	})
 	$('div.keyboard div.control button.space').click(function () {
 		if (input) {
